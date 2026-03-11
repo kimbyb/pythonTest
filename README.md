@@ -1,6 +1,6 @@
 # Overview
 
-This repository contains Python code snippets used to test the “Add superclass constructor call” quick-fix in PyCharm.
+This repository contains Python examples used to verify the behavior of the **“Add superclass constructor call”** quick-fix in PyCharm.
 
 The quick-fix is triggered when a subclass overrides the __init__ method but does not call the constructor of its superclass. When invoked (via Alt + Enter or mouse click), the IDE suggests inserting the appropriate super().__init__(...) call.
 
@@ -17,7 +17,7 @@ The functional test plan verifies that the quick-fix:
 
 4. Inserts the correct super().__init__(...) invocation.
 
-5. Preserves Python syntax, semantics, and formatting.
+5. Preserves Python syntax, semantics.
 
 The test cases focus primarily on functional behavior, while also covering several Python language features and edge cases.
 ### Python version used for execution: 
