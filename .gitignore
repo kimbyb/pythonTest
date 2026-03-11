@@ -1,0 +1,52 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python type checker
+.mypy_cache/
+
+# Ruff / linting
+.ruff_cache/
+
+# Temporary files
+*.tmp
+*.swp

@@ -4,6 +4,6 @@ class A:
 
 
 class B(A):
-    # TTP-08 should have no warning 
+    # TTP-08 should have no warning
     def __init__(self):
-        super().__init__()
+        pass
