@@ -20,12 +20,12 @@ The functional test plan verifies that the quick-fix:
 5. Preserves Python syntax, semantics, and formatting.
 
 The test cases focus primarily on functional behavior, while also covering several Python language features and edge cases.
-## Python version used for execution: 
+### Python version used for execution: 
 ```
 3.14.3
 ```
 
-## IDE:
+### IDE:
 ```
 PyCharm 2025.3.3
 Build #PY-253.31033.139, built on February 19, 2026
@@ -39,7 +39,7 @@ Cores: 8
 Metal Rendering is ON
 ```
 
-To execute:
+### To execute:
 ```
 python filename.py
 ```
