@@ -14,5 +14,5 @@ class B(A):
     # TTP-16 super().__init__() should be added
     @log
     def __init__(self):
-        super().__init__()
+        pass
 
